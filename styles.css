@@ -1,0 +1,125 @@
+body{
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#logo{
+    /* background-color: antiquewhite; */
+    padding-left: 10px;
+}
+#my-nav{
+    display: flex;
+    /* background-color: aqua; */
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin: auto;
+}
+a:hover{
+    color: yellowgreen;
+}
+#my-links{
+    /* background-color: aquamarine; */
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    margin: auto;
+    padding-right: 20px;
+}
+#search-field{
+    width: 50%;
+    border: 1px solid black;
+    border-radius:25px ;
+    height: 40px;   
+}
+.btn1{
+    margin-left: 10px ;
+    min-width: 80px;
+    background-color: white;
+    
+}
+#offer-section{
+    width: 80%;
+    height: 320px;
+    margin: auto;
+    padding: 20px;
+    background-color:rgb(164, 164, 164,0.6);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-around;
+}
+#poster-content{
+    background-color: white;
+    color: black;
+    width: 30%;
+    padding: 20px;
+    height: 180px;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#content-section{
+    margin: 20px;
+    margin-top: 60px;
+}
+#subContent{
+    border: 1px solid black;
+    padding: 20px;
+}
+.footer{
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0);
+    width: 100%;
+    height: 300px;
+    color: white;
+}
+.list{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    padding: 5px;
+}
+li:hover{
+    color: yellowgreen;
+}
+
+/* Sign Up */
+#auth-card{
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    margin: auto;
+    padding: 3%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#form-sheet{
+    width: 60%;
+    margin: auto;
+}
+.input-field{
+    margin-top: 10px;
+    height: 30px;
+    padding: 10px;
+}
+#auth-btn{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(167, 79, 255);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px;
+
+}
+#checkbox{
+    margin-top: 20px;
+}
